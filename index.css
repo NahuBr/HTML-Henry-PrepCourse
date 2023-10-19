@@ -47,7 +47,9 @@
         padding-left: 2.5%;
     }
     
-   
+    & a:hover{
+        background-color: var(--Body-Color);
+    }
     
 
 }
@@ -80,9 +82,31 @@ body{
 .Content{
     padding: 0px 2em;
     text-align: justify;
+    float: left;
+    width: 70%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
 
+.aside{
+    float: right;
+    width: 30%;
+    margin: 0%;
+    padding: 2em 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    & .map{
 
-
+        & li{
+            list-style: none;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    }
 }
 
 /* -------------  HOME  ------------  */
